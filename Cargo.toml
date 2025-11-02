@@ -1,0 +1,22 @@
+[package]
+name = "ant-mania"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "ant-mania"
+path = "src/main.rs"
+
+[[bin]]
+name = "map-generator"
+path = "src/map_generator.rs"
+
+[[bin]]
+name = "benchmark"
+path = "src/benchmark.rs"
+
+[dependencies]
+dotenv = "0.15"
+eyre = "0.6"
+fastrand = "2.3"
+rayon = "1.11"
